@@ -3,7 +3,7 @@ public class Main {
         boolean registered = true;
         double amount = 1590.99;
         int count = 20;
-        int bonus = (int) (amount / count);
-        System.out.println(bonus);
+        int miles = (int) (amount / count);
+        System.out.println("Вам начислено " + miles + " миль");
     }
     }
